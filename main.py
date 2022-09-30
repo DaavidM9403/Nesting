@@ -4,24 +4,26 @@ fave_tv = input("Whats is your favorite tv show?:")
 
 
 if fave_tv == "Power":
-    print("Mines too")
+    print("Thats the best show on Tv right now")
     
-    favecharacter = input("who is your favorite character?:")
-   
+    favecharacter = input("who is your favorite character on Power series?:")
     if favecharacter == "Kanan":
        print("Mines too")
        input("What do you like about Kanan?:")
        print("Okay, i see why you like that character")
-       input("Whats Kanan birth city at?:")
+    birth_place = input("What city was Kanan Born?:")
+    if birth_place == "NewYork":
+      print("Correct")
+    else:
+      print("try again")
+    
     
     if favecharacter == "Ghost":
-      print("Okay, now your talking")
+      print("Okay, now yor talking")
       input("What do you like about Ghost?:")
       input("Do you think he is still alive?:")
       print("I think so, because ghost lives forever")
 
-    else: 
-      print("Im not mad at that answer")
     
       
 elif fave_tv == "Sistas":
